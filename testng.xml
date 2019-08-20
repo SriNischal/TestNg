@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="addition" />
+				<include name="subtraction" />
+				<include name="add" />
+				<include name="minus" />
+				<exclude name="multipication" />
+				<exclude name="division" />
+				<exclude name="multiply" />
+				<exclude name="divide" />
+			</run>
+		</groups>
+		<classes>
+			<class name="test.FirstTest" />
+			<class name="test.Addition" />
+		</classes>
+	</test>
+</suite> 
