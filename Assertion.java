@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class SampleProgram {
+public class Assertion {
 	@Test
 	public void testSoft() {
 		SoftAssert assertion =new SoftAssert();

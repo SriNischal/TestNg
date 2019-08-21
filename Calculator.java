@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 import org.testng.annotations.Test;
 
-public class FirstTest {
+public class Calculator {
 
 		Scanner n = new Scanner(System.in);
-         @Test(priority=1,groups="addition")
+         @Test(groups="addition")
 		public void addition() {
 			int sum = 0, no_of_values, values_to_add;
 			System.out.println("enter the value");
@@ -18,7 +18,7 @@ public class FirstTest {
 			}
 			System.out.println(sum);
 		}
-        @Test(priority=2,groups="subtraction")
+        @Test(groups="subtraction")
 		public void subtraction() {
 			int diff = 0,no_of_values, values_to_subtract;
 			System.out.println("enter the value");
@@ -29,7 +29,7 @@ public class FirstTest {
 			}
 			System.out.println(diff);
 		}
-         @Test(priority=3,groups="multiplication")
+         @Test(groups="multiplication")
 		public void multiplication() {
 			int mul = 1, no_of_values, values_to_multiply;
 			System.out.println("enter the value");
@@ -40,7 +40,7 @@ public class FirstTest {
 			}
 			System.out.println(mul);
 		}
-         @Test(priority=4,groups="division")
+         @Test(groups="division")
 		public void division() {
 			int div = 100,  no_of_values, values_to_divide;
 			System.out.println("enter the value");
